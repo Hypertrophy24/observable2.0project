@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+#chart-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.chart-wrapper {
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #fff;
+}
+
+/* Style for chart titles */
+.chart-title {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
